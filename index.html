@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-toboolist</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-    <header>
 
+<body class="bg-grey">
+    <header class="bg-white"> <!--BARRA DI NAVIGAZIONE - testo a fianco al logo-->
+        <img class="logo-boolean" src="./img/logo-trasparente.png" alt="Logo-Boolean trasparente">
+        <h1 class="toboolist">
+            Toboolist
+        </h1>
     </header>
-
-    <main>
+    <main class="corpo-centrale-bianco"><!--APPLICATO QUI STILE PER QUADRATO BIANCO CENTRALE-->
+        <div class="bg-white"class="tasti-task-section"><!--TASTI TASK/SECTION-->
+                <button><span id="addtask">ADDTASK</span></button> <button><span id="addsection">ADDSECTION</span></button>
+        </div>
+        <hr>
+        <section class="bg-white">
+            <div><!--NEW TASK + Quarterly Newsletter-->
+                <h3>
+                    New Task
+                </h3>
+                <p>
+                    Quarterly Newsletter
+                    <button>editorial</button>
+                </p>
+            </div>
+            <div><!--TODAY + testi-->
+                <h3>
+                    Today
+                </h3>
+                <p>Recruiting blog post <button>Editorial</button></p>
+                <p>Mobile app launch <button>Q1 Goals</button></p>
+                <p>Interview John H. <button>Rectruiging</button></p>
+                <p>Summit update to mobile storefronts<button>Mobile</button></p>
+            </div>
+            <div><!--upcoming + testi-->
+                <h3>
+                    Upcoming
+                </h3>
+                <p>Schedule meeting whit Alex</p>
+                <p>Homepage refresh <button>Website</button></p>
+                <p>Onboard new Sales Team members <button>Sales</button></p>
+                <p> Review editorial calendar <button>Editorial</button></p>
+            </div>
+        </section>
 
     </main>
 
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>
