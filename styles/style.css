@@ -3,4 +3,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+#addtask{
+    background-color: blue;
+    
+}
+.tasti-task-section{
+    padding-left: 35px;
+}
+.bg-grey{
+    background-color: grey;
+}
+.bg-white {
+    background-color: white;
+    
+}
+.toboolist{
+    display: inline-block;
+    
+}
+.logo-boolean{
+    margin-top: 10px;
+}
+
+.corpo-centrale-bianco{
+        margin: 0 auto;
+    width: 80%;
+    padding-top: 25px;
+    height: 400px;
+}
+
